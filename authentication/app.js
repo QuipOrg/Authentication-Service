@@ -12,6 +12,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser())
 
 app.use('/api/v1/users', users);
-app.use('/api/v1/authenticate', auth);
+app.use('/api/v1/auth', auth);
 
 module.exports = app;
